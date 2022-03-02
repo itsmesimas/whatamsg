@@ -42,8 +42,8 @@ export default function Chat({ socket, username, room }) {
 										<p>{messageContent.message}</p>
 									</div>
 									<div className="message-meta">
-										<p>{messageContent.time}</p>
-										<p>{messageContent.author}</p>
+										<p>{`${messageContent.time} ${messageContent.author}`}</p>
+										
 									</div>
 								</div>
 							</div>
